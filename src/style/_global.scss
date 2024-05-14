@@ -1,0 +1,17 @@
+@use 'variables';
+
+
+
+body {
+	min-height: 100vh;
+	background-color: variables.$clr-neutral-800;
+	color: variables.$clr-neutral-200;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+.wrapper {
+	max-width: 80vw;
+	margin: 0 auto;
+	min-height: 100vh;
+}
+
